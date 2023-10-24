@@ -1,5 +1,6 @@
 #title{
   background-color: #ff4c68;
+  position: relative;
 
 }
 body{
@@ -8,6 +9,10 @@ body{
 
 .container-fluid{
   padding:3% 15%;
+
+}
+a{
+  cursor: pointer;
 }
 
 h1{
@@ -80,8 +85,10 @@ p{
 /* Title Image */
 
 .titleimg{
-  width:50%;
-  /* transform: rotate(25deg); */
+  width:60%;
+  position: relative;
+  left: 30%;
+  transform: rotate(25deg);
 }
 
 /* Features Section */
@@ -144,11 +151,16 @@ p{
 }
 
 .margin2{
-  padding-bottom: 24px;
+  padding-bottom: 38px;
 }
 
 .pricing-col{
   padding: 3% ;
+}
+
+.card-img{
+  width:100%;
+  padding-bottom: 5px;
 }
 
 /* call-to-action section */
@@ -158,8 +170,15 @@ p{
   background-color: #ff4c68;
   padding: 1% 10%;
   color: #fff;
+  border: solid 1px black;
 }
 
+.cta-heading{
+  font-size:3.5rem;
+  line-height: 1.5;
+  font-family: "Montserrat"
+
+}
 /* Footer */
 #footer{
   background-color: #fff;
@@ -167,4 +186,21 @@ p{
   font-size:2rem;
   line-height: 1.5;
   text-align: center;
+
+}
+
+.socialmedia{
+  margin:20px 10px;
+}
+
+@media (max-width:1028px) {
+  .titleimg{
+    transform: rotate(0);
+    position: static;
+  }
+
+  #title{
+    text-align: center;
+  }
+
 }
