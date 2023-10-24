@@ -1,6 +1,4 @@
-WEBSITE IS IN DEVELOPMENT STAGE!!
-
-This is my first commercial website completely designed and developed by me from stratch using HTML, CSS and Bootstrap Library. I hosted this website in github so that i can showcase my skills to recruiter who is looking for recruitment in Front-End.
+This is my first website completely designed and developed by me from stratch using HTML, CSS with Bootstrap Library. I hosted this website in github so that i can showcase my skills to recruiter who is looking for recruitment in Front-End.
 
 About ME
 
