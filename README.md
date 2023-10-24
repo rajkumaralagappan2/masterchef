@@ -5,8 +5,11 @@ This is my first commercial website completely designed and developed by me from
 About ME
 
 Rajkumar A (@rajkumaralagappan2)
+
 LinkedIn- To be Updated
+
 Naukri- To be Updated
+
 
 For any freelance or if you are a recruiter looking for a recruitment in Front-End, kindly contact me
 Mail: rajkumaralagappan@proton.me
