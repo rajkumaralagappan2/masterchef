@@ -31,16 +31,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#" >Home</a>
+              <a class="nav-link" href="#title" >Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
+              <a class="nav-link" href="#features">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Signup/Login</a>
+              <a class="nav-link" href="#testimonials">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#pricing">Cuisines</a>
             </li>
           </ul>
         </div>
@@ -49,8 +49,8 @@
       <div class="row">
         <div class="col-lg-6 front" >
           <h1>Get all food recipes on the go.</h1>
-          <button type="button" class="btn btn-dark btn-lg down" ><span class="fab fa-apple hj"></span>Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg down"><span class="fa-brands fa-google-play hj"> </span>Download</button>
+          <button type="button" class="btn btn-dark btn-lg down" href="#cta" ><span class="fab fa-apple hj"></span>Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg down" href="#cta"><span class="fa-brands fa-google-play hj"> </span>Download</button>
         </div>
         <div class="col-lg-6">
           <img class="titleimg" src="images/iphone8.png" alt="iphone-mockup">
@@ -83,7 +83,7 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-    <div id="carouselExampleControls" class="carousel slide" data-ride="false">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="3000">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <h2><q>I'm no longer have to search for various varieties of recipes. Thanks to Masterchef.</q></h2>
@@ -93,17 +93,9 @@
     <div class="carousel-item">
       <h2 class="testimonial-text"><q>One of the best recipe site available on the internet. I used to cook everyday by using this site. Simply Loved it</q></h2>
       <img class="testimg" src="images/kane.jpeg" alt="lady-profile">
-      <em>Kane Williamson, New Zealand Capta</em>
+      <em>Kane Williamson, New Zealand Captain</em>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
 
 
@@ -116,7 +108,7 @@
   <!-- Press -->
 
   <section id="press">
-    <img class="press-img" src="images/TechCrunch.png" alt="tc-logo">
+    <img class="press-img" src="images/techcrunch.png" alt="tc-logo">
     <img class="press-img" src="images/tnw.png" alt="tnw-logo">
     <img class="press-img" src="images/bizinsider.png" alt="biz-insider-logo">
     <img class="press-img"src="images/mashable.png" alt="mashable-logo">
@@ -131,10 +123,11 @@
     <h2>Cuisines</h2>
     <p>Simple and affordable recipe plans for you and your family</p>
     <div class="row">
-        <div class="col pricing-col col-lg-4 col-md-6">
+        <div class="col pricing-col col-lg-4 col-md-6 col-sm-12">
           <div class="card">
             <div class="card-header">
               <h3>Indian</h3>
+              <img class="card-img" src="images/indian1.jpeg" alt="">
             </div>
             <div class="card-body">
               <h5>North-India, South-India</h5>
@@ -143,10 +136,11 @@
             </div>
           </div>
         </div>
-        <div class="col pricing-col col-lg-4 col-md-6">
+        <div class="col pricing-col col-lg-4 col-md-6 col-sm-12">
           <div class="card">
             <div class="card-header">
               <h3>Continental</h3>
+              <img class="card-img" src="images/continental.jpeg" alt="">
             </div>
             <div class="card-body">
               <h5>Europe, France, Italy</h5>
@@ -155,10 +149,11 @@
             </div>
           </div>
         </div>
-        <di class="col pricing-col col-lg-4">
+        <di class="col pricing-col col-lg-4 col-sm-12">
           <div class="card">
             <div class="card-header">
               <h3>Oriental</h3>
+              <img class="card-img" src="images/oriental.jpeg" alt="">
             </div>
             <div class="card-body">
               <h5>Japan, China, Thailand</h5>
@@ -176,7 +171,7 @@
 
   <section id="cta">
 
-    <h3 >Find the True Chef within Youself Today.</h3>
+    <h3 class="cta-heading" >Find the True Chef inside Yourself Today.</h3>
     <button type="button" class="btn btn-dark btn-lg down cta1" ><span class="fab fa-apple hj"></span>Download</button>
     <button type="button" class="btn btn-outline-light btn-lg down cta1"><span class="fa-brands fa-google-play hj"> </span>Download</button>
 
@@ -186,7 +181,10 @@
   <!-- Footer -->
 
   <footer id="footer">
-
+    <i class="fa-brands fa-twitter socialmedia"></i>
+    <i class="fa-brands fa-facebook-f socialmedia"></i>
+    <i class="fa-brands fa-instagram socialmedia "></i>
+    <i class="fa-solid fa-envelope socialmedia"></i>
     <p>Copyright (c) 2023 MasterChef - Copyright Holder All Rights Reserved.</p>
 
   </footer>
